@@ -1,0 +1,67 @@
+Do make
+    -vista de consulta de los beneficiarios esta fuera del box
+    -El mensaje de datos guardados debe durar al menos 3 segundos
+    -Añadir los aleantes
+    -agregar una nota
+    -crear usuarios
+    -revisar porque debe retornarse el objeto ya modicado para poder redireccionar
+    -revisar porque paginate no lista por el orden en elques e registro
+    -Al acabar de registrar una transaccion
+    -Cuando no exista una ruta redireccionar al home    
+    -problemas de responsive con el formulario de operacion
+    -Quitar barra de progreso de las notificaciones    
+
+Ready
+    -validar que el peso de salida no sea inferior al de entrada
+    -quitar CVG
+    -Añadir Favicon
+    -comunicado de instalacion
+    -comunicado de asistencia a la charla
+    -Aumentar el tamaño de la fuente
+    -Telefono no obligatorio(opcional)
+    -Agregar J o V para identificar al Beneficiario
+        -Añadirlo a la migracion
+        -Añadirlo al formulario de la vista
+        -Tomar los datos en el script y enviarlos al controlador
+        -Validar datos en el controlador guardalos y en enviar respuesta
+    -Fecha y hora modificlables para registrar_transaccion, modificar_transaccion
+    -Modelo no obligatorio para registrar
+    -Lograr que se vea con mayor contraste
+    -Quitar label de las columnas(Nro de Boleto, Peso inicail etc...) cuando en la consulta no encuentra ninguno
+    -Opciones para usuario(Registrar,Modificar,Eliminar)
+    -Validar al registrar una Transaccion el peso de salida no puede ser inferior al entrada
+    -Solucionar error con el pdf(no carga)-- el problema esta relacionado con la ruta que carga la inageb del logo de cabelum
+    -Agregar compra o venta en funcion del producto
+    -checkear la validacion de Beneficiario, vehiculo, choferes
+    -Colocar busqueda (Conductor,  Vehiculo, Beneficiario, Transacciones)
+    -Opcion Editar (Conductor,  Vehiculo, Beneficiario, Transacciones)
+    -Opcion de busqueda(Rif Nombre)
+    -Opcion Anular o elminar (Conductor,Vehiculo, Beneficiario, Transacciones)
+    -Crear Modelo producto(id, nombre)
+    -Agregar el Logo al pdf
+    -generar el pdf para cada Transaccion
+    -Crear una vista de anulados para transacciones
+    -Agregar al formulario de operaciones Tipo de (Venta, Compra)
+    -Campos a editar para Transacciones (Hasta el momento que la cerro)
+    -Cerra la operacion colocarle un peso de salida
+    -Numero de transaccion como numero de boleto
+    -ponerle contraseña al usuario root de php myadmin
+    {
+        cabelumtecnoj1138544
+    }
+
+Productos en en la bd para
+{
+    Alambron
+    Conductor
+    Gasoil
+    Argon
+}
+
+pasos para la instalacion
+{
+    -repaldar la base de datos
+    -respaldar los archivos que estab en htdocs
+    -pegar los archivos en htdocs
+    -subir la base de datos con las modificaciones hechas
+}

@@ -1,0 +1,15 @@
+{
+  "/js/app.js": "/js/app.js",
+  "/plugins/bootstrap-datepicker.js": "/plugins/bootstrap-datepicker.js",
+  "/plugins/bootstrap-datepicker.es.js": "/plugins/bootstrap-datepicker.es.js",
+  "/js/select2.js": "/js/select2.js",
+  "/js/app-landing.js": "/js/app-landing.js",
+  "/js/script.js": "/js/script.js",
+  "/css/app.css": "/css/app.css",
+  "/css/bootstrap.css": "/css/bootstrap.css",
+  "/css/adminlte-app.css": "/css/adminlte-app.css",
+  "/css/toastr.css": "/css/toastr.css",
+  "/css/all.css": "/css/all.css",
+  "/css/all-landing.css": "/css/all-landing.css",
+  "/css/select2.css": "/css/select2.css"
+}
